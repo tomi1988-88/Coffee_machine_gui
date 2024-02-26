@@ -10,7 +10,7 @@ class MyButton(ttk.Button):
         super().__init__(**kwargs)
 
     def pack(self, **kwargs):
-        super().pack(padx=2, pady=5, fill=tk.BOTH)
+        super().pack(padx=2, pady=2, fill=tk.BOTH)
 
 
 class Entry_digits(ttk.Entry):
